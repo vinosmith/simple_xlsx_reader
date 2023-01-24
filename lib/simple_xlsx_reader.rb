@@ -417,7 +417,7 @@ module SimpleXlsxReader
         when :string, :unsupported
           value
         when :fixnum
-          value.to_i
+          value.to_f
         when :float
           value.to_f
         when :percentage
